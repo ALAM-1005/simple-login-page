@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form creation</title>
+</head>
+<body style="background-color: rgb(186, 226, 43);">
+   <div class ="form">
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <input type="email" placeholder="email">
+    <button style="background-color: aqua;">Submit</button>
+    </div>
+    <style>
+        *{
+            margin:0;
+        }
+        body{
+            height:100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+        }
+        .form
+        {
+            width: 25rem;
+            height: 25rem;
+            flex-direction: column;
+            display: flex;
+        }
+        input{
+            margin: 20px;
+            width: 80%;
+            outline: none;
+            border: none;
+            border-bottom: 10px solid white;
+
+        }
+        button{
+            margin: 36px;
+            /* width: 80%s;
+            border-bottom: 10px solid; */
+        }
+        </style>
+</body>
+</html>
